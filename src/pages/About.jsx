@@ -77,7 +77,7 @@ const About = () => {
         <div className="absolute inset-0 overflow-hidden">
           <img
             ref={imageRef}
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxSwoYQT2EMapmSAep57-lEtVO-bet2fd7ieAkWMGkYhLGC3pAdceWfMdHFQiCKBfFIpvVWmVY4sn853RPz7uuSZ_Zuour5sSwQgDBpchYYm-y9g8f57sofmMPDY_C25jesKIhcv3gmOwBxOMm0pY16amEGAA3H5WgEUzSx-9jw6SgMTa2XMsj7imC3r500gtREUh4QMC9IMjnyz_3afqw5YNXdG8m_vEPdhpkwfJBFM5lc_Axx0yr"
+            src="/img22.jpeg"
             alt="Laura Haute Couture"
             className="
               h-[115%]
@@ -407,7 +407,7 @@ const About = () => {
                   transition={{
                     duration: 1.2,
                   }}
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoYLkfXMRbYiz_kKo41OLhjg_W9zHrh345nG5BQBwvQ3H163b67KF5f3HcTCMJgpH7Z8FIdYnBu1LRsTq0wwQK_D0w6YWO9U4cY1YcB1vkiXAMZaPbKmnYe35L8f9dXC0rM9awUEtEGvCJl3Zv60iFgspMaaIgCaGpneel-cQdU4SanI6ZAQ0Y0Iu_3HKSNuiBD64AZXGSEv_QojC1q_Dvd7TFAy6bqyjVLA_qbSa5cN0RKb80EtRo"
+                  src="/img14.jpeg"
                   alt="Couture craftsmanship"
                   className="
                     h-full
@@ -568,19 +568,19 @@ const About = () => {
                 number: "I",
                 title: "Craft",
                 desc: "Meticulous construction rooted in heritage techniques. Pattern making, draping and hand-finishing come together to create garments of exceptional precision.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD3CrBdB9ogffr80jLlHg3dwnXhaAGkRGC6CjHsoxvTql283z9QvlOFTVFLoOcM-1FStuMMhw19cciJOKDOSHcWA_4K6M436rZGzuWFFTynUp2hgiVA8kSEXOlrhjlVgIdaNRvPYX2bShr7adflON5Bb87zoohyh09zrFoyNOpQUqwtXIw14tuvU4np5Vo8l5TCTSBmA6VkZdAq7geyHR6LPZ8daja-ow40y-r9kJBR11EfxSgSscR_",
+                img: "img21.jpeg",
               },
               {
                 number: "II",
                 title: "Individuality",
                 desc: "Your story translated into fabric. Every custom piece is developed collaboratively to become an authentic extension of your personality.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCFpZoKcqz-BkxJO7Jnrfz3bPb-qHTSHqMpvYcgs7f4rpOqjRZtOhw3oRB0h0X5lLaRz5xw43oSC9L5J0IdSpUmUlicUn4kTCoIHuqWO0hjISCD6Qx7oXkflf13QalM-tMog-ouVuScu14KaNAEC9mk-dyOCGCvoLYsOlxaynscxJR-TVCp7NJgBNWDalqhsAflocwTMsErNMUgcNW6fQT6zhWsRweIrV7GQg_VOgqxizOlEbaUSTT",
+                img: "img17.jpeg",
               },
               {
                 number: "III",
                 title: "Experience",
                 desc: "An intimate sanctuary for selection and fitting, where the process of creating your garment is as memorable as the moment you finally wear it.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB9VFrxRUZUuC9z2GJY9zZ3AoQuJYtsgf8Zb6ThjiSrcw-zTRK6WgxnqvbAr4freSWw_CY8PTfWyUqUHlyhsdoNOGDr7AiMpvJq6IoU4-ZUZscVxo3IxQefzvIb3_sIhnd3NWk9aMe_ccpZ1QmshyTsxX9Wsd4UDhYY1IX7vzklmXe_D7eXGsQfxzhRsSUchii2T_WuVe6R-q05AAI-WrT9TVxSEuu7sTjZQdcJwheygTzS-GvzCfy",
+                img: "img23.jpeg",
               },
             ].map((item, index) => (
               <motion.article

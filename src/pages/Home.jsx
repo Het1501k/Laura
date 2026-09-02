@@ -8,24 +8,22 @@ import Lenis from "lenis";
 gsap.registerPlugin(ScrollTrigger);
 
 const images = {
-  hero:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuBuwSqmR2_tRkDZ5O9r3HMyP2OVKYO-oLrusKg29gB6HdhlZUarotX7laheqUodGMbM3XPkmJ1XM0KzwM50BrfhboJjEbMVtAPRmjpmlObTNb89fGT7BY-97b1WsJAygBdSI5U0DL6um-hyotOzQafDAdyBI6xctoGD70Rq_HSO_G0f2vpc6pU3kdCKAaQ2sKrBOXnVxFfHmwy4svy2bkhJj4kpxY54pfShcwq3XBaiTrsgUmaPEQn5",
+  hero: "../public/img1.jpeg",
 
-  bridal:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCv8C0QrcHMM4FssKS8vs-4jDglDrB22JhgtJyQrOoQEkUkAzJgfSFRvenk1KZsZvgkB-E12oJCAQMQjfXvcGpyN5JFIcqnX3Zk650Chp5Ez4_XwKKH-vaBIYAK8TVDGoGFFuRNJzKIjyMWSyqzuPJMuaJU3os-AHDcZxLq6xEvQT_9A7aOsvtuQeNAc8XtQImOK2QTpLnF3rkoLbx-z7NAZc2BO2O2z292X6a7yVzYAVkhHtBjYoCT",
+  bridal: "../public/img8.jpeg",
 
-  evening1:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuD97qAysyIgAWft20rsob8aglFB3K0eEOfYpI4k1rAQvvWrrElYD2wn04_i7hsaQuLKpbE8ObUW9GwXp9Vxt_p3RcxwfawyJ07QWRMJleopXeuWFYhjRTDLqzTVYyREFlLzT55NQceGiBDZHBaRIxRc4up9TSLFW22XDcQzfbtfLLNl-x4Ni4Uu8RIrW9HxsIsmpRh4GdZaOJxkt-p_-2oR-QOJu3alcH1UuW7A1jKUyRZbOAGjiv40",
+  detail: "../public/img6.jpeg",
 
-  evening2:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuAQeFoiUzCkkr5Sx-3Nsbjz67kxBWZUNvs72pyWTJZGX6yIm6IQFFNEGdXAwS5TuoFmnDMf6V1iHJ7X9g60NlWpxccKKpfIjpzz6X84mLgyUnbtZ9MruwS-aEIToRBfnqgHY4m9Ekmpa2b9PRtYAKLlZKZU0kJH_coUsB-goPluUvenw2aIkO8ky7IPcz07PuBqEzcwdcP_J-6dy3sWwBzQL5IdlYq7sQZY9F3rvbViXE9oSUj0BT-2",
+  evening1: "/img4.jpeg",
 
-  detail:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCv8C0QrcHMM4FssKS8vs-4jDglDrB22JhgtJyQrOoQEkUkAzJgfSFRvenk1KZsZvgkB-E12oJCAQMQjfXvcGpyN5JFIcqnX3Zk650Chp5Ez4_XwKKH-vaBIYAK8TVDGoGFFuRNJzKIjyMWSyqzuPJMuaJU3os-AHDcZxLq6xEvQT_9A7aOsvtuQeNAc8XtQImOK2QTpLnF3rkoLbx-z7NAZc2BO2O2z292X6a7yVzYAVkhHtBjYoCT",
+  evening2: "/img5.jpeg",
 
-  hero2:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuD97qAysyIgAWft20rsob8aglFB3K0eEOfYpI4k1rAQvvWrrElYD2wn04_i7hsaQuLKpbE8ObUW9GwXp9Vxt_p3RcxwfawyJ07QWRMJleopXeuWFYhjRTDLqzTVYyREFlLzT55NQceGiBDZHBaRIxRc4up9TSLFW22XDcQzfbtfLLNl-x4Ni4Uu8RIrW9HxsIsmpRh4GdZaOJxkt-p_-2oR-QOJu3alcH1UuW7A1jKUyRZbOAGjiv40",
+  detail: "/img6.jpg",
+
+  hero2: "/img7.jpeg",
 };
+
+
 
 const fadeUp = {
   hidden: {
@@ -246,7 +244,7 @@ const Home = () => {
             ref={heroImageRef}
             src={images.hero}
             alt="Laura Haute Couture bridal gown"
-            className="h-full w-full object-cover object-center scale-105"
+            className="h-full w-full object-cover object-top scale-105"
           />
 
           <div className="absolute inset-0 bg-black/25" />
@@ -439,7 +437,7 @@ const Home = () => {
             <div className="md:col-span-4 md:col-start-9">
               <div className="image-reveal overflow-hidden">
                 <img
-                  src={images.detail}
+                  src={images.evening1}
                   alt="Laura Haute Couture detail"
                   className="aspect-[3/4] w-full object-cover"
                 />

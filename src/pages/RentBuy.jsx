@@ -15,19 +15,19 @@ const RentBuy = () => {
       name: "L'AURA GOWN",
       type: "RENT / BUY",
       number: "01",
-      img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB_hP0WwSSwnjxZLN6Cr-SrskC770oJWdiJXGCAMwTk8UpXAVca_djxAItI4Fer-C5b5ADSUCeGMLCKdzleqqVJjP2Bquj3oLRPqyUriG7nJJct0i3pwxnjINTyBDeITk37xNT2BOPH1Zm-us1EcGtEkZYXsHqDJ3sU9w2WMWt2WxrUGv_VYhNYXNNS43BjOAFLC_CaN-CXS4Snl4XPTcw6P_uJ90jAHakzjadiAw1a3nrgKOolrnqO",
+      img: "/img1.jpeg",
     },
     {
       name: "NOIR SILHOUETTE",
       type: "RENT",
       number: "02",
-      img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDO57369GvrE8aD77ST8DTmVq3zjEYANDkOHHWMV4oNi2KhSsfEhKSvBqCuA4NfTSdFkQ_E7Ncodvj_lf_B7Uv9CiHDTxp25G23SlWSCexBrEr5ZRXaWSNUd-Q8SmoDAQai0tmFnSHUVTAvA8POa1LFX-Lj1nbZonXICOIEq9XAfEsHwjnmATgNKcLZb1c8mUn-A71u9Is5GRfc1DM4Is4qMG04v406KY0wH6NaWk7Mhm42RsUHj9KY",
+      img: "/img12.jpeg",
     },
     {
       name: "STRUCTURAL BLAZER",
       type: "BUY",
       number: "03",
-      img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC2GefvCQh3MCfUwTfSYgTIbSzcH74mltGH20dEj-m_eZETncmg1MQ1up7R6HmrZ5_7Jhgxctv3sdsP4mUNNhuH3EJbLFsZjq0shZRGpY8-gyAMa6RNwtxRuSx2afalodWmWUeSzbECEOKb5x8GBMx37k1Sp5WOTmY6SGH7Umiabrz9sFotdSvdSXQu0VwScLYr-73rFoK4aCNVhy9d0MuqkpOWTFlpq-Rrkg1KGKNUMUoZTnAgTDRk",
+      img: "/img18.jpeg",
     },
   ];
 
@@ -138,7 +138,7 @@ const RentBuy = () => {
         <div className="absolute inset-0 overflow-hidden">
           <img
             ref={heroImageRef}
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgiNlMf38SsbXVIgXiWyaGAAGSsjkG1oRW5lJ3LIpxuawiT5qfsdnPHUTzTnZNBtbTMMJgR1zLrSshqWZwHD2kTHambGTfi5wyKYZ0lnFWHkcjD7zhRytXZEBhTqgpq2x6P2dIomRDYfp7GjNo3uQABtqHu0QrzUbCuhT8dRUsIyyHyYMCX2Xpfg52qkdtCSe47nZbiRWaTKpndpD6LoJQNSNpSeTv8vVw7nu0GEytqxJYEubJRhWF"
+            src="/img17.jpeg"
             alt="Laura Haute Couture collection"
             className="
               absolute
@@ -257,7 +257,7 @@ const RentBuy = () => {
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-[#ddd6ca]">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgiNlMf38SsbXVIgXiWyaGAAGSsjkG1oRW5lJ3LIpxuawiT5qfsdnPHUTzTnZNBtbTMMJgR1zLrSshqWZwHD2kTHambGTfi5wyKYZ0lnFWHkcjD7zhRytXZEBhTqgpq2x6P2dIomRDYfp7GjNo3uQABtqHu0QrzUbCuhT8dRUsIyyHyYMCX2Xpfg52qkdtCSe47nZbiRWaTKpndpD6LoJQNSNpSeTv8vVw7nu0GEytqxJYEubJRhWF"
+                  src="/img13.jpeg"
                   alt="Rent couture"
                   className="
                     h-full
@@ -319,7 +319,7 @@ const RentBuy = () => {
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-[#25231f]">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsWvPQCqtQLIvvZo-l1lRCDWRNkTrYmTqBINhsz52WgYVdsQQwGOdJv6w8BI5Xh1AEaprCyiyxSKjieNtz_aJwjeILIDTEyBpuuomgCURZL0H3uCuxKyBGjyCaT25FikylHMe82US8W0adGnJeUNb0mtDEgimqkTEn_8d07rW1rmSGt8wdLVrtQhcG8yfnEUlq97t6lGCJgj8ER4yQubD1F__jO5JjKV3wAw8k01XD3Vz1GJ4jhPwc"
+                  src="/img18.jpeg"
                   alt="Buy couture"
                   className="
                     h-full

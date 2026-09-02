@@ -374,7 +374,7 @@ const Contact = () => {
               >
                 <img
                   ref={imageRef}
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTUVgbieDs_RdcsxO2T7pHw54-KlnFyWnW7iTFch7rWtTAP632HtWpg0EmKWf238G-9KscElyJ1BsehHG3bSq1SaInrA-ODrwlJJQXXaiUsxQIhOElOZW9NwFiCKO-f8PVVmiYbBbVmmf_EnwG-OfEN4MyZqyvgvQmvY3JFjpbJLv31zM8uaBgp7RdZhGE4PXzP06hw8E1FUydHBityqY9P5MeVlLcTP1zTtoDyC4GBct1XeAdPMGl"
+                  src="/img18.jpeg"
                   alt="Laura Haute Couture atelier"
                   className="
                     absolute
