@@ -8,14 +8,14 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const navItems = [
-    { label: "BRIDAL", path: "/" },
-    { label: "EVENING", path: "/" },
-    { label: "CUSTOM", path: "/" },
-    { label: "RENT & BUY", path: "/rent-buy" },
-    { label: "ABOUT", path: "/about" },
-    { label: "CONTACT", path: "/contact" },
-  ];
+ const navItems = [
+  { label: "RENT & BUY", path: "/rent-buy" },
+  { label: "ABOUT", path: "/about" },
+  { label: "CONTACT", path: "/contact" },
+  { label: "BRIDAL", path: "/bridal" },
+  { label: "EVENING", path: "/evening" },
+  { label: "CUSTOM", path: "/custom" },
+];
 
   useEffect(() => {
     const handleScroll = () => {
