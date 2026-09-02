@@ -8,11 +8,11 @@ import Lenis from "lenis";
 gsap.registerPlugin(ScrollTrigger);
 
 const images = {
-  hero: "../public/img1.jpeg",
+  hero: "/img1.jpeg",
 
-  bridal: "../public/img8.jpeg",
+  bridal: "/img8.jpeg",
 
-  detail: "../public/img6.jpeg",
+  detail: "/img6.jpeg",
 
   evening1: "/img4.jpeg",
 
